@@ -1,0 +1,37 @@
+.brigadeiros {
+  background: #ffe7df;
+  padding: 10px;
+}
+
+.brigadeirossabores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px;
+  gap: 10px;
+}
+
+.brig1 {
+  background: #ffff;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.brig2 {
+  background: #ffff;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 24px;
+  line-height: 1.7;
+}
+.brig3 {
+  background: #ffff;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 24px;
+  line-height: 1.7;
+}

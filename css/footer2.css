@@ -1,0 +1,17 @@
+.rodape {
+  background: #727071;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.orcamentos {
+  margin: 40px;
+  color: #b4afb1;
+  align-self: center;
+}
+
+.dados {
+  margin: 40px;
+  color: #ffff;
+  justify-content: center;
+}

@@ -1,0 +1,48 @@
+.bolos {
+  display: flex;
+  gap: 15px;
+  font-size: 48px;
+  margin: 40px;
+}
+.favicon {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+.massas {
+  background: #ebebeb;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+}
+
+.recheios {
+  background: #ebebeb;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+}
+
+.cobertura {
+  background: #ebebeb;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+}
+.sabores {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+.sabores2 {
+  grid-column: 2;
+  list-style: none;
+  font-size: 24px;
+  line-height: 1.7;
+}

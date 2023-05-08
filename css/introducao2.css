@@ -1,0 +1,35 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  gap: 100px;
+}
+
+.perfil {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  margin-left: 40px;
+}
+
+.texto {
+  font-size: 48px;
+  padding: 40px;
+  text-align: left;
+  color: #090808;
+}
+
+.local {
+  font-size: 24px;
+  grid-column: 2;
+  color: #090808;
+  padding: 5px 80px;
+}
+
+.intro {
+  margin-bottom: 20px;
+  align-content: center;
+}

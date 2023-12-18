@@ -11,26 +11,32 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script> document.documentElement.className += ' js'; </script>
 </head>
 
 <body>
-  <header class="header">
-    <img class="logo" src="./img/Logo atelier fefe.png" alt="Logo" width="150" height="150">
-    <nav>
-      <ul class="links">
-        <li><a class="link" href="">Bolos</a></li>
-        <li><a class="link" href="">Brigadeiros</a></li>
-        <li><a class="links" href="">Contato</a></li>
-      </ul>
-    </nav>
+  <header class="header-bg">
+    <div class="header">
+      <a href="./">
+        <img class="logo" src="./img/Logo atelier fefe.png" alt="Logo" width="150" height="150">
+      </a>
+      <nav aria-label="primaria">
+        <ul class="links">
+          <li><a href="./bolos.html">Bolos</a></li>
+          <li><a href="./brigadeiros.html">Brigadeiros</a></li>
+          <li><a href="./docesfinos.html">Doces Finos</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <span class="detalhe"></span>
+
 
 
   <main class="introducao">
     <img class="perfil" src="./img/Foto perfil.jpg" alt="Perfil" width="350" height="460">
     <div class="intro">
-      <h1 class="texto">Atelier da Fefe é especializado em bolos de aniversários, casamentos, doces e brigadeiros gourmet.
+      <h1 class="texto">Atelier da Fefe é especializado em bolos de aniversários, casamentos, doces finos e brigadeiros gourmet.
       </h1>
       <p class="local">Estamos localizados em Valência.</p>
     </div>
@@ -44,7 +50,7 @@
   </section>
   <span class="detalhe"></span>
   <section>
-    <div class="bolos">
+    <div class="bolos" id="Bolos">
       <h1>Bolos</h1>
       <img class="favicon" src="./img/FAVICON.svg" alt="">
     </div>
@@ -85,7 +91,7 @@
     </div>
 
 
-    <div class="brigadeiros">
+    <div class="brigadeiros" id="Brigadeiros">
       <h1>Brigadeiros</h1>
       <div class="brigadeirossabores">
         <ul class="brig1">
@@ -110,16 +116,32 @@
         </ul>
       </div>
     </div>
+    <div class="docesfinos" id="Docesfinos">
+      <h1>Doces Finos</h1>
+      <div class="docesfinosSabores">
+        <ul class="finos1">
+          <li>Camafeu de Nozes</li>
+          <li>Damasco recheado com pistache</li>
+          <li>Copinho de chocolate amargo recheado</li>
+          <li>Copinho de chocolate branco recheado</li>
+          <li>Olho de sogra caramelizado</li>
+          <li>Bombom Ferrero Rocher</li>
+          <li>Brigadeiro de amêndoas dourada</li>
+        </ul>
+
+      </div>
+    </div>
   </section>
   <footer>
     <div class="rodape">
       <div class="orcamentos">
         <p>Para orçamentos e pedidos entrar em contato por whatsapp.</p>
       </div>
-      <div class="dados">
+      <div class="dados" id="Contato">
         <p>fernanda.arico@gmail.com</p>
         <p>+34 676426367</p>
         <p>@atelier_da_fefe</p>
+
         <p>Atelier da Fefê</p>
       </div>
     </div>

@@ -1,10 +1,18 @@
 body {
   font-family: fire Arial, Helvetica, sans-serif;
   max-width: 1500px;
-  margin: 0;
+  margin: 0px;
+  gap: 0px;
   justify-content: center;
   margin: 0 auto;
 }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -52,6 +60,5 @@ li::before {
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
-    padding: 20px;
   }
 }

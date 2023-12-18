@@ -1,13 +1,16 @@
 .brigadeiros {
   background: #ffe7df;
   padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
 }
 
 .brigadeirossabores {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 40px;
-  gap: 10px;
+  margin: 10px;
+  gap: 15px;
 }
 
 .brig1 {
@@ -15,7 +18,7 @@
   border: solid #b4afb1;
   border-radius: 5px;
   padding: 20px;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.7;
 }
 
@@ -24,7 +27,7 @@
   border: solid #b4afb1;
   border-radius: 5px;
   padding: 20px;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.7;
 }
 .brig3 {
@@ -32,6 +35,41 @@
   border: solid #b4afb1;
   border-radius: 5px;
   padding: 20px;
-  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.docesfinos {
+  background: #ebebeb;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  font-size: 2.5rem;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   line-height: 1.7;
+}
+
+.finos1 {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.docesfinos {
+  padding: 10px;
+}
+
+h3,
+h1 {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 800px) {
+  .brigadeirossabores,
+  .docesfinos {
+    grid-template-columns: 1fr;
+  }
 }

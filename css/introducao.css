@@ -16,7 +16,7 @@
 }
 
 .texto {
-  font-size: 48px;
+  font-size: 3rem;
   padding: 40px;
   text-align: left;
   color: #090808;
@@ -32,4 +32,23 @@
 .intro {
   margin-bottom: 20px;
   align-content: center;
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .texto {
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .local {
+    padding: 10px 50px;
+    margin-bottom: 10px;
+  }
+  .perfil {
+    margin-top: 40px;
+  }
 }

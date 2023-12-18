@@ -1,14 +1,21 @@
 .experiencia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column: 2;
   padding: 40px;
 }
+
 .exp {
   line-height: 1.5;
+  grid-column: 2;
+  font-size: 1.4rem;
 }
 
 p {
   grid-column: 2;
-  font-size: 24px;
-}
+  font-size: 1.5rem;
+} 
+
+@media (max-width: 800px) {
+.experiencia{
+  grid-template-columns: 1fr;
+}}

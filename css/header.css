@@ -39,7 +39,7 @@ a {
 .links a:after {
   content: "";
   display: block;
-  height: 1px;
+  height: 2px;
   width: 0px;
   background: #3c1a02;
   margin-top: 4px;

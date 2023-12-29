@@ -36,6 +36,16 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
+
+.precos {
+  background: #ebebeb;
+  border: solid #b4afb1;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
 .sabores {
   display: grid;
   grid-template-columns: 1fr;
@@ -53,9 +63,16 @@ h3 {
   font-size: 2rem;
 }
 
+.bolos-lista {
+  max-width: 100%;
+  overflow-x: scroll;
+  display: flex;
+}
+
 @media (max-width: 800px) {
   .sabores2 {
     grid-column: 1;
+  
   }
   .sabores {
     margin-top: 5px;
